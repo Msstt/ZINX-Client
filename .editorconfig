@@ -1,0 +1,22 @@
+# .editorconfig 文件
+root = true
+
+# 所有文件的基本设置
+[*]
+
+# C# 文件的特殊设置
+[*.cs]
+indent_style = space
+indent_size = 2
+tab_width = 2
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+indent_size = 2
+csharp_new_line_before_open_brace = none
+csharp_new_line_before_else = false
+csharp_new_line_before_catch = false
+csharp_new_line_before_finally = false
+dotnet_diagnostic.IDE0055.severity = error
+# 注意：C# 的左括号换行设置通常不由 `.editorconfig` 控制，而是由 C# 插件（如 OmniSharp）设置
